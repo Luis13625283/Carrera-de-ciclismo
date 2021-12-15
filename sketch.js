@@ -8,9 +8,9 @@ var database;
 
 var form, player, game;
 
-var cars, car1, car2, car3, car4;
+var cars, car1, car2, car3, car4, gameOver, arbol, ninos, estrellas, bobEsponja;
 
-var track, car1_img, car2_img, car3_img, car4_img;
+var track, car1_img, car2_img, car3_img, car4_img,  gameOverImg, arbol_img, ninos_img, estrellas_img,bobEsponja_img;
 
 function preload(){
   track = loadImage("../images/track.jpg");
@@ -18,6 +18,11 @@ function preload(){
   car2_img = loadImage("../images/car2.png");
   car3_img = loadImage("../images/car3.png");
   car4_img = loadImage("../images/car4.png");
+  arbol_img = loadImage("../images/arbol.png");
+  ninos_img = loadImage("../images/ninos.png");
+  estrellas_img = loadImage("../images/estrella-fugaz.png");
+  bobEsponja_img = loadImage("../images/bob-esponja.png");
+  gameOverImg = loadImage("../images/gameOver.png");
   ground = loadImage("../images/ground.png");
 }
 
